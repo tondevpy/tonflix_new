@@ -1,0 +1,116 @@
+body {
+  background: #3c3d40;
+}
+.filmes{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.filme {
+  width: 400px;
+  padding: 20px;
+  background: #303b42;
+  margin-bottom: 20px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+}
+.filme h1 {
+  padding: 10px;
+  color: #fff;
+}
+.filme p {
+  color: #9ea5b2;
+}
+.img {
+  max-width: 600px;
+  
+}
+.filme img {
+  width: 100%;
+  background-size: cover;
+  border-radius: 8px 8px 0 0;
+}
+.filmes_ {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.fav {
+  margin-top: 50px;
+  padding: 20px;
+  border: none;
+  color: #fff;
+  background: red;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 1s;
+  margin-left: 10px;
+}
+.fav {
+  background: #a61304;
+}
+.stars {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.stars img{
+  width: 24px;
+}
+.stars span {
+  font-weight: bold;
+  color: #fff;
+}
+.acessar {
+  background: #313d77;
+  margin-top: 50px;
+  padding: 20px;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 1s;
+  margin-left: 10px;
+}
+@media screen and (max-width: 735px) {
+  .filme {
+    width: 300px;
+    padding: 20px;
+    background: #303b42;
+    margin-bottom: 20px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+  }
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: #fff;
+}
+.pages {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+.pages span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.pages button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}

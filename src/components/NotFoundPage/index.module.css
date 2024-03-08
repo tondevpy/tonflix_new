@@ -1,0 +1,18 @@
+.container_not_found {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
+.container_not_found a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+}
+.container_not_found p {
+  font-size: 62px;
+  font-weight: bold;
+  color: red;
+}
